@@ -16,7 +16,7 @@ paths = ['datos/conectividad_municipal/ConectividadMunicipal.shx',
 		  'datos/codigos_postales/CP_Jal.shx']
 
 # 0 == municipal | 1 == colonia | 2 == CP
-d = 1
+d = 2
 file_path = paths[d]
 map_us = gpd.read_file(file_path)
 
